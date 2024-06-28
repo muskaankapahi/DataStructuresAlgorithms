@@ -4,6 +4,7 @@ public class Main {
 
         Stacks.stacks_DS(args);
         Queues.queues_DS(args);
+        Priority_Queues.queues(args);
     }
 
 }
