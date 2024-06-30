@@ -6,7 +6,12 @@ In a FIFO data structure, the first element added to the queue will be processed
 
 The queue is a typical FIFO data stucture. The insert operation is also called enqueue and the new element is always added at the end of the queue. The delete operation is called dequeue. You are only allowed to remove the first element.
 
-2. Circular Queue-
+2. LIFO DS
+In a LIFO data structure, the newest element added to the queue will be processed first.
+
+Different from the queue, the stack is a LIFO data structure. Typically, the insert operation is called push in a stack. Similar to the queue, a new element is always added at the end of the stack. However, the delete operation, pop, will always remove the last element which is opposite from the queue.
+
+3. Circular Queue-
 In a circular queue, we use an array and two pointers, head and tail. head indicates the start position of the queue while tail indicates the ending position of the queue.
 
 
