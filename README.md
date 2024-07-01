@@ -22,3 +22,6 @@ index ++;
 index = index % array.length;
 
 //used in circular queue when enqueue is performed
+
+2.  while (left <= right) { // <= here because left and right could point to the same element, < would miss it
+    int mid = left + (right - left) / 2; // use `(right - left) /2` to prevent `left + right` potential overflow
