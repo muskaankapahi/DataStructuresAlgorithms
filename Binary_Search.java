@@ -1,3 +1,9 @@
+/*Vanilla Binary Search
+The search range is represented by the left and right indices that start from both
+ends of the array and move towards each other as we search. When moving the index,
+we discard elements and shrink the search range.
+Time Complexity: O(log(n))
+ */
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
