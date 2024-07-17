@@ -1,5 +1,6 @@
-import java.util.Arrays;
-public class Main {
+package Recursion;
+
+public class PalindromeRecursion {
   public static void main(String[] args) {
     char[] s = {'a', 'b', 'c'};
     int size = s.length -1;

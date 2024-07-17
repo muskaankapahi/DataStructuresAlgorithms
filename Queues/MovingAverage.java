@@ -1,3 +1,5 @@
+package Queues;
+
 import java.util.*;
 
 class MovingAverage {

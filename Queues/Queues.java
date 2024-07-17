@@ -1,4 +1,4 @@
-//****************************
+package Queues;//****************************
 //Queue - FIFO
 //A collection designed for holding elements prior to processing
 //Linear data structure // add - enqueue[offer()], remove -dequeue [poll()], examine- element() or peek()

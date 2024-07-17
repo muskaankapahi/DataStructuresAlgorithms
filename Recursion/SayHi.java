@@ -1,4 +1,6 @@
-public class Recursion{
+package Recursion;
+
+public class SayHi {
     public static void main(String[] args){
         sayHi(3);
     }

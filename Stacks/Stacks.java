@@ -1,3 +1,5 @@
+package Stacks;
+
 import java.util.Stack;
 public class Stacks {
     public static void stacks_DS(String[] args) {

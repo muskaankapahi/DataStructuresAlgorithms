@@ -1,8 +1,12 @@
-class MyCircularQueue {
+package Queues;
+
+import java.util.Arrays;
+
+class CircularQueue {
     int[] q;
     int front = 0, rear = 0, size = 0;
 
-    public MyCircularQueue(int k) {
+    public CircularQueue(int k) {
         q = new int[k];
         Arrays.fill(q, -1);
     }
@@ -54,8 +58,8 @@ class MyCircularQueue {
 }
 
 /**
- * Your MyCircularQueue object will be instantiated and called as such:
- * MyCircularQueue obj = new MyCircularQueue(k);
+ * Your Queues.MyCircularQueue object will be instantiated and called as such:
+ * Queues.MyCircularQueue obj = new Queues.MyCircularQueue(k);
  * boolean param_1 = obj.enQueue(value);
  * boolean param_2 = obj.deQueue();
  * int param_3 = obj.Front();

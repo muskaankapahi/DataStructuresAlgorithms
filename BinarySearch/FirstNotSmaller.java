@@ -1,4 +1,4 @@
-/* Given an array of integers sorted in increasing order and a target,
+package BinarySearch;/* Given an array of integers sorted in increasing order and a target,
 find the index of the first element in the array that is larger than
 or equal to the target. Assume that it is guaranteed to find a satisfying number.
 
@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-class Solution {
+class FirstNotSmaller {
     public static int firstNotSmaller(List<Integer> arr, int target) {
         // WRITE YOUR BRILLIANT CODE HERE
         int start = 0 , end  = arr.size() - 1;

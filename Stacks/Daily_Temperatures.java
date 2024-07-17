@@ -1,6 +1,8 @@
+package Stacks;
+
 import java.util.Stack;
 
-class Solution {
+class Daily_Temperatures {
     public int[] dailyTemperatures(int[] temperatures) {
         int[] result = new int[temperatures.length];
         Stack<Integer> stew = new Stack<>();

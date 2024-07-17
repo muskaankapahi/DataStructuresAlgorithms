@@ -1,4 +1,4 @@
-/*A sorted array of unique integers was rotated at an unknown pivot.
+package BinarySearch;/*A sorted array of unique integers was rotated at an unknown pivot.
 For example, [10, 20, 30, 40, 50] becomes [30, 40, 50, 10, 20].
 Find the index of the minimum element in this array.
 Input: [30, 40, 50, 10, 20]
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-class Solution {
+class MinElementSortedArray {
     public static int findMinRotated(List<Integer> arr) {
         // WRITE YOUR BRILLIANT CODE HERE
         int left = 0 , right = arr.size() - 1;

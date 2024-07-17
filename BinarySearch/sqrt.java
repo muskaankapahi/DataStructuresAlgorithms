@@ -1,6 +1,8 @@
+package BinarySearch;
+
 import java.util.*;
 
-class Solution {
+class sqrt {
     public static int squareRoot(int n) {
         // WRITE YOUR BRILLIANT CODE HERE
         int start = 2;

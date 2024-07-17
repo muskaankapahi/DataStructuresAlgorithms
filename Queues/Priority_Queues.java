@@ -1,4 +1,4 @@
-//****************************
+package Queues;//****************************
 //Priority Queue - FIFO, a queue but we first sort the elements on the basis of priority
 //we poll and serve the elements with the highes priority first
 //Higher priority elements go before the lower priority elements

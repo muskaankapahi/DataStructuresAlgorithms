@@ -1,4 +1,4 @@
-/* Given a sorted array of integers and a target integer, find the first
+package BinarySearch;/* Given a sorted array of integers and a target integer, find the first
 occurrence of the target and return its index. Return -1 if the target is not in the array.
 
 Input:
@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-class Solution {
+class FirstOccurenceWithDuplicates {
     public static int findFirstOccurrence(List<Integer> arr, int target) {
         // WRITE YOUR BRILLIANT CODE HERE
         int start = 0 , end = arr.size() - 1;

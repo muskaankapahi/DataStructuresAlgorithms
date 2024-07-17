@@ -1,4 +1,8 @@
-class Solution {
+package Stacks;
+
+import java.util.Stack;
+
+class Valid_Parentheses {
     public boolean isValid(String s) {
         Stack<Character> input = new Stack<>();
         

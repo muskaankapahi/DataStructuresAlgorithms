@@ -1,4 +1,8 @@
-class Solution {
+package Stacks;
+
+import java.util.Stack;
+
+class Reverse_Polish_Notation {
     public int evalRPN(String[] tokens) {
         Stack<Integer> polish = new Stack<>();
         
